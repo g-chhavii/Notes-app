@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    margin: 15px;
+    line-height: 2rem;
+    margin: 2rem;
+}
+.tool{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+.tool i{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: xx-large;
+}
+
+.note textarea:focus{
+    outline: 0;
+}
+
+#addBtn{
+    background-color: chartreuse;
+    padding: 10px;
+    font-size: medium;
+    position: fixed;
+    z-index: 1;
+    left: 90%;
+}
